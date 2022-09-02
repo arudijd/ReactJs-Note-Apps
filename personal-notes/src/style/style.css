@@ -1,0 +1,189 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #06283D;
+    color: white;
+}
+
+.note-app__title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: fit-content;
+    padding: 10px;
+    background-color: #051e2e;
+}
+
+.note-app__title h1{
+    background-color: transparent;
+}
+
+.note-app__title input{
+    display: block;
+    border-style: solid;
+    border-color: white;
+    width: 300px;
+    height: 30px;
+    padding: 8px;
+    margin: 8px 0;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 10px;
+    color: white;
+    background-color: #051e2e;
+}
+
+.note-app__body{
+    margin: 0 auto;
+    padding: 16px;
+    max-width: 900px;
+}
+
+.note-input{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    margin: 14px 0;
+    border-radius: 8px;
+    border-style: solid;
+    margin-bottom: 30px;
+}
+
+.note-input__form {
+    margin-top: 10px;
+}
+
+.note-input input {
+    display: block;
+    border-style: solid;
+    border-color: white;
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 10px;
+    color: white;
+    background-color: #06283D;
+}
+
+::placeholder {
+    color :white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.note-input textarea {
+    display: block;
+    border-style: solid;
+    border-color: white;
+    width: 100%;
+    height: 200px;
+    padding: 8px;
+    margin: 8px 0;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 10px;
+    color: white;
+    background-color: #06283D;
+}
+
+.note-input button {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border-color: white;
+    border-style: solid;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #06283D;
+    
+}
+
+.note-input button:hover {
+    background-color: white;
+    color: black;
+}
+
+.note-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 25px 0 25px;
+
+}
+
+
+
+hr {
+    margin: 10px;
+    color: white;
+}
+.note-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px;
+    min-height: 300px;
+    overflow: hidden;
+    padding: 25px 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+}
+
+.note-item__title {
+    font-size: medium;
+    margin-bottom: 10px;
+}
+
+.note-item__date{
+    font-size: small;
+    margin-bottom: 10px;
+    color: #808080;
+}
+
+.note-item__body {
+    font-size: medium;
+}
+
+.note-item__button {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.note-item__button .note-item__button-delete {
+    background-color: transparent;
+    color: #ff4d4d;
+    width: 50%;
+    height: 30px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px 0 0 10px;
+}
+
+.note-item__button .note-item__button-delete:hover {
+    background-color: white;
+    color: #e60000;
+}
+
+.note-item__button .note-item__button-archived {
+    background-color: transparent;
+    color: #ff9933;
+    width: 50%;
+    height: 30px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 0 10px 10px 0;
+}
+
+.note-item__button .note-item__button-archived:hover {
+    background-color: white;
+    color: #ff8000;
+    
+}
+
+
+
+
